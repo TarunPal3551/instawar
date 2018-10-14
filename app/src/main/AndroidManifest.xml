@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hp.instawar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="PhotoBook"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:label">
+        <activity
+            android:name=".SplashScreen.SplashScreen"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login_Activity" />
+        <activity android:name=".Register_activity" />
+        <activity android:name=".Home.Home_activity" />
+        <activity
+            android:name=".Like.SettingActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Profile.ProfileActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Profile.Account_setting"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".Upload.Upload_review_activity"/>
+        <activity android:name=".Upload.UploadActivity" />
+        <activity android:name=".Album_Detail" />
+        <activity android:name=".Order_Book.OrderActivity" />
+        <activity android:name=".Order_Book.Payment_Activity" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Contactus" />
+        <activity android:name=".Help_Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">instawar</string>
+    <string name="authenticationfailed">Authentication failed</string>
+    <string name="authenticationsucces">Authentication Succes</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="user">user</string>
+    <string name="dataaccountsetting">user_account_setting</string>
+    <string name="Singout">Sign Out</string>
+    <string name="dataUser_setting">  user__setting</string>
+    <string name="profilefragment">Profile fragment</string>
+    <string name="username">username</string>
+    <string name="accountusername">account useranme</string>
+    <string name="fusername">username</string>
+    <string name="email">email</string>
+    <string name="address">address</string>
+    <string name="state">state</string>
+    <string name="profile_photo">profile_photo</string>
+    <string name="phone_number">phone_number</string>
+    <string name="user_photo">user_photo</string>
+    <string name="photo">photo</string>
+    <string name="new_photo">new_photo</string>
+    <string name="profile">profile_photo</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="aboutus"> At Photobook , we\'re all about letting you create beautiful photo books of 100 photos.
+Here, you can find exquisite handmade photo books that you can easily personalize.
+From Yari Album, your Tour and Lifestyle  albums, books of Life Journey , Birthday Album and Photographic Album.
+you can always want to products of superior quality printing and professional binding that comes in a two sizes(8 by 8,12 by 12 ).
+The easy and intuitive  Hard Copy AlbumMaker Photobook App, makes it easy to design your own PhotoAlbum;
+This is great way to collect your Memories in a book and we are deliver on your place where you want in all india.
+Experience the joy of having a beautiful book by working on your project today.   </string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="albumsize">
+        <item>8" x 8"</item>
+        <item>12" x 12"</item>
+    </string-array>
+    <string-array name="albumtype">
+        <item>YariAlbum</item>
+        <item>LifeStyleAlbum</item>
+        <item>PhotographicAlbum</item>
+        <item>BirthdayGift</item>
+        <item>LifeJounneyAlbum</item>
+    </string-array>
+</resources>

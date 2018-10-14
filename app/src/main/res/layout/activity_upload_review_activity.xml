@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.instawar.Home.Upload_review_activity">
+
+    <RelativeLayout
+        android:layout_width="188dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/uploadedview2">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutgrid"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout4">
+
+        <ImageView
+            android:id="@+id/orderbutton"
+            android:layout_width="148dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="21dp"
+            android:layout_marginEnd="21dp"
+            android:background="@drawable/order_button" />
+
+        <TextView
+            android:id="@+id/adnewphototextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="124dp"
+            android:text="Go back and Upload Images to create album"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30sp"
+            app:fontFamily="casual" />
+
+        <ProgressBar
+            android:id="@+id/datashowing"
+            android:layout_width="145dp"
+            android:layout_height="103dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="109dp" />
+
+        <GridView
+            android:id="@+id/review_grid"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:horizontalSpacing="2dp"
+            android:numColumns="3" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="148dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/orderbutton"
+            android:layout_marginStart="21dp"
+            android:background="@color/orange"
+            android:text="add PHOTO"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/orange">
+
+        <Button
+            android:id="@+id/backbutton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="66dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

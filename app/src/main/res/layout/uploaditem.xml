@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardViewupload"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/filename"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/image" />
+
+            <ImageView
+                android:id="@+id/upload_loading"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/filename"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/uploaddone" />
+
+            <TextView
+                android:id="@+id/filename"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="11dp"
+                android:layout_toEndOf="@+id/imageview"
+                android:layout_toLeftOf="@+id/upload_loading"
+                android:layout_toRightOf="@+id/imageview"
+                android:layout_toStartOf="@+id/upload_loading"
+                android:layout_weight="1"
+                android:text="Filename"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

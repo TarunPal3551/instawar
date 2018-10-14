@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="480dp">
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profilesearch"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:id="@+id/usernamesearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/profilesearch"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:layout_toEndOf="@+id/profilesearch"
+            android:layout_toRightOf="@+id/profilesearch"
+            android:text="Username"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/profilesearch"
+            android:layout_alignLeft="@+id/usernamesearch"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/usernamesearch"
+            android:text="email" />
+
+</RelativeLayout>

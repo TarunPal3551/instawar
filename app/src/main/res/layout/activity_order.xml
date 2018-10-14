@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gallery"
+    tools:context="com.example.hp.instawar.Order_Book.OrderActivity">
+
+
+    <EditText
+        android:id="@+id/addressedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fullnameedittext"
+        android:layout_marginTop="29dp"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/albumname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:hint="Album Name(Description if any)"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fullnameedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/albumname"
+        android:layout_marginTop="80dp"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/mobilenumberedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addressedittext"
+        android:layout_marginTop="21dp"
+        android:hint="Mobile No."
+        android:inputType="phone"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <Spinner
+        android:id="@+id/sizespinner"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobilenumberedittext"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="19dp"
+        android:layout_toLeftOf="@+id/textView10"
+        android:layout_toStartOf="@+id/textView10"
+        android:background="@android:color/white"
+        android:entries="@array/albumsize"
+        android:popupBackground="@android:color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/sizespinner"
+        android:layout_marginLeft="147dp"
+        android:layout_marginStart="147dp"
+        android:text="Size"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/albumtypespinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sizespinner"
+        android:layout_alignRight="@+id/sizespinner"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/white"
+        android:entries="@array/albumtype"
+        android:popupBackground="@android:color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/albumtypespinner"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:text="AlbumType"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ordercomplete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:background="@android:color/white"
+        android:text="Payment Option"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fullnameedittext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:background="@color/orange"
+        android:text="Fill all Detail"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>

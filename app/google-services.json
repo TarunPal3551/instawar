@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1083662310056",
+    "firebase_url": "https://instawar-e39b7.firebaseio.com",
+    "project_id": "instawar-e39b7",
+    "storage_bucket": "instawar-e39b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083662310056:android:e27f1de11bd9fe6c",
+        "android_client_info": {
+          "package_name": "com.example.hp.instawar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083662310056-7v7n6gt8a3qentjl0efp8o0nqhgj2og5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.instawar",
+            "certificate_hash": "3d7ca359740030a72f24a4ff1eda1229e8e09e09"
+          }
+        },
+        {
+          "client_id": "1083662310056-gs4np47fe2b5g59rr763a0h5eajj7nr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.instawar",
+            "certificate_hash": "996dee1ff296a2d40ce6777fe80c9f051f2f802b"
+          }
+        },
+        {
+          "client_id": "1083662310056-hhpkqkhpn0rtrqkgj8kbafha3ttbab8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA46X_QJMYm-9NqTV_gkcJ0PcHiq7XSy_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083662310056-hhpkqkhpn0rtrqkgj8kbafha3ttbab8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

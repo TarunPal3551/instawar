@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context="com.example.hp.instawar.login_Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="55dp">
+
+        <ImageView
+            android:layout_width="2000dp"
+            android:layout_height="138dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/photoalbum" />
+
+            <EditText
+                android:id="@+id/input_signup_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/input_email"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Username"
+                android:background="@drawable/white_rounded_button"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textColorLink="#ffffff"
+                android:textColorHint="#ffffff"
+                tools:ignore="HardcodedText,RtlCompat"
+                android:layout_marginTop="30dp"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="10dp"/>
+
+
+            <EditText
+                android:id="@+id/input_signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/white_rounded_button"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textColorLink="#ffffff"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText,RtlCompat"/>
+
+            <EditText
+                android:id="@+id/input_signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/input_email"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Password"
+                android:background="@drawable/white_rounded_button"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textColorLink="#ffffff"
+                android:textColorHint="#ffffff"
+                tools:ignore="HardcodedText,RtlCompat"
+                android:layout_marginTop="30dp"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="10dp"/>
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/white_rounded_login"
+            android:contextClickable="false"
+
+
+            android:gravity="center"
+            android:longClickable="false"
+            android:padding="12dp"
+            android:text="Signup"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>

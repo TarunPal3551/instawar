@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <include layout="@layout/layout_top_tabs_setting"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="57dp"
+            android:layout_marginTop="49dp"
+            android:background="@drawable/gradient_red">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/orange"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id" />
+
+            <TextView
+                android:id="@+id/aboutus"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="160dp"
+                android:layout_marginTop="54dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/aboutus"
+                android:text="About"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/contactus"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/aboutus"
+                android:layout_alignLeft="@+id/aboutus"
+                android:layout_alignRight="@+id/aboutus"
+                android:layout_alignStart="@+id/aboutus"
+                android:layout_below="@+id/aboutus"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/contactus"
+                android:text="Contact us"
+                android:textColor="@android:color/white"
+
+                android:textSize="24sp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/changepaasword"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/contactus"
+                android:layout_alignStart="@+id/contactus"
+                android:layout_below="@+id/contactus"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/changepass"
+                android:text="Change Password"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/contactus"
+                android:layout_alignLeft="@+id/changepaasword"
+                android:layout_alignRight="@+id/contactus"
+                android:layout_alignStart="@+id/changepaasword"
+                android:layout_below="@+id/changepaasword"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/feedback"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/feedback"
+                android:text="feedback"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/showadd"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/feedback"
+                android:layout_alignStart="@+id/feedback"
+                android:layout_below="@+id/feedback"
+                android:layout_marginTop="5dp"
+
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/help"
+                android:text="Help?"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+        </RelativeLayout>
+
+        <include layout="@layout/bottom_navigation_view" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#ff1810"
+            ads:srcCompat="@drawable/photoalbum" />
+
+    </RelativeLayout>
+</RelativeLayout>

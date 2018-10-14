@@ -1,0 +1,62 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="45dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textpost"
+            android:layout_width="65dp"
+            android:layout_height="34dp"
+            android:gravity="center"
+            android:text="Posts"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/post"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textEditprofile"
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/white_rounded_login"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text=" Edit your Profile"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textpost"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+    </android.support.constraint.ConstraintLayout>
+</merge>
